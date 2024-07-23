@@ -1,0 +1,624 @@
+body {
+  background: #ffffff !important;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.navbar {
+  padding: 20px 0px 20px 0px !important;
+}
+.navbar .logo-addmx {
+  width: 300px;
+  padding: 0px 30px 0px 30px;
+}
+@media screen and (max-width: 576px) {
+  .navbar .logo-addmx {
+    width: 200px;
+  }
+}
+.navbar .navbar-collapse {
+  justify-content: center;
+}
+.navbar .navbar-nav {
+  text-align: center;
+}
+.navbar .dropdown-menu {
+  text-align: left;
+}
+@media screen and (max-width: 991px) {
+  .navbar .dropdown-menu {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar .dropdown-menu {
+    text-align: center;
+  }
+}
+.navbar .nav-item {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.navbar .nav-link {
+  color: #e09f00;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.navbar .nav-link:hover {
+  color: #7a5702;
+}
+.navbar .link-contact {
+  width: 150px;
+  background: #ff5050;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50px;
+}
+@media screen and (max-width: 576px) {
+  .navbar .link-contact {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar .link-contact {
+    width: 100%;
+  }
+}
+.navbar .link-contact:hover {
+  background: #a20100;
+  color: #ffffff;
+}
+
+.Slider {
+  background-image: url("../images/banner-001.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.Slider-PaginaWeb {
+  background-image: url("../images/banner-002.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 36%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-PaginaWeb {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider-Logo {
+  background-image: url("../images/banner-003.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-Logo {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider-MiniWeb {
+  background-image: url("../images/banner-004.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-MiniWeb {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider-Catalogos {
+  background-image: url("../images/banner-005.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 90%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-Catalogos {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider-Video {
+  background-image: url("../images/banner-006.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 91%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-Video {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider-Contactanos {
+  background-image: url("../images/banner-007.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 59%;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .Slider-Contactanos {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Slider {
+    height: 50vh;
+    justify-content: center;
+  }
+}
+.Slider__Info {
+  width: 50%;
+  padding: 30px;
+  background-image: url("../images/back-transparente.png");
+}
+@media screen and (max-width: 800px) {
+  .Slider__Info {
+    width: 90%;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .Slider__Info {
+    width: 90%;
+    padding: 20px;
+  }
+}
+.Slider__Title {
+  color: #ff5050;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 30px;
+}
+@media screen and (max-width: 576px) {
+  .Slider__Title {
+    font-size: 25px;
+  }
+}
+.Slider__Title-2 {
+  color: #ff5050;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 30px;
+}
+@media screen and (max-width: 576px) {
+  .Slider__Title-2 {
+    font-size: 25px;
+  }
+}
+.Slider__Description {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 25px;
+}
+@media screen and (max-width: 576px) {
+  .Slider__Description {
+    font-size: 20px;
+  }
+}
+.Slider__Description-2 {
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 25px;
+}
+@media screen and (max-width: 576px) {
+  .Slider__Description-2 {
+    font-size: 20px;
+  }
+}
+
+.Price-Section {
+  background-color: #efefef;
+  background-image: url("../images/grafico-addmx-web-site.png");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-size: 90%;
+  background-blend-mode: screen;
+  background-position-y: -100px;
+}
+@media screen and (max-width: 576px) {
+  .Price-Section {
+    background-position-y: -40px;
+    background-size: 130%;
+    background-repeat: no-repeat;
+  }
+}
+.Price-Section.page-web {
+  background-color: #bf8700;
+}
+.Price-Section.logotipo {
+  background-color: #009fa5;
+}
+.Price-Section.miniweb {
+  background-color: #a20100;
+}
+.Price-Section.catalogos {
+  background-color: #ff8117;
+}
+.Price-Section.video {
+  background-color: #7a5702;
+}
+.Price-Section .Title {
+  text-align: center;
+  color: #ffffff;
+  padding: 30px 0px 30px 0px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-top: 5%;
+}
+.Price-Section .Banner {
+  margin: 0px auto;
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 50px;
+  box-shadow: 7px 6px 25px -6px rgba(0, 0, 0, 0.49);
+}
+@media screen and (max-width: 576px) {
+  .Price-Section .Banner {
+    width: 100%;
+  }
+}
+.Price-Section .Banner .Title {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0px 20px 0px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+.Price-Section .Banner .Color-01 {
+  background-color: #009fa5;
+}
+.Price-Section .Banner .Color-02 {
+  background-color: #ff5050;
+}
+.Price-Section .Banner .Color-03 {
+  background-color: #e09f00;
+}
+.Price-Section .Banner .Banner-Container {
+  color: #2a2a2a;
+  padding: 30px 10px 50px 10px;
+  background: #ffffff;
+}
+.Price-Section .Banner .Title-Promotion {
+  text-align: center;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.Price-Section .Banner .Icon-Container {
+  margin: 0px auto;
+  width: 90%;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3%;
+}
+.Price-Section .Banner .Icon-01 {
+  width: 100px;
+}
+.Price-Section .Banner .Icon-02 {
+  width: 100px;
+}
+.Price-Section .Banner .Icon-03 {
+  width: 200px;
+}
+.Price-Section .Number {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0px auto;
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+.Price-Section .color01 {
+  color: #009fa5;
+}
+.Price-Section .color02 {
+  color: #ff5050;
+}
+.Price-Section .color03 {
+  color: #e09f00;
+}
+.Price-Section .color04 {
+  color: #ff5050;
+}
+.Price-Section .Description {
+  text-align: center;
+  font-size: 15px;
+  height: 100%;
+  min-height: 80px;
+}
+.Price-Section .List {
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.Price-Section .Link {
+  width: 50%;
+  margin: 0px auto;
+  display: block;
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  background-color: #ff0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
+.Price-Section .Link:hover {
+  background-color: #fb7272;
+}
+.Price-Section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.Price-Section .material-symbols-outlined {
+  color: #24d064;
+  margin-right: 3%;
+  font-size: 20px;
+}
+.Price-Section .error {
+  color: red;
+}
+.Price-Section .Link:hover {
+  color: #ffffff;
+}
+.Price-Section .WhatsApp {
+  margin: 0px auto;
+  display: flex;
+  width: 80%;
+  border: 0px;
+  padding: 5px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #25d366;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+.Price-Section .icon-whatsapp {
+  width: 37px;
+}
+.Price-Section .WhatsApp:hover {
+  background-color: #075e54;
+}
+
+.Steps-Section {
+  background-color: #ffffff;
+}
+.Steps-Section .Title {
+  text-align: center;
+  color: #000000;
+  padding: 30px 0px 30px 0px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.Steps-Section .Container {
+  width: 90%;
+  max-width: 300px;
+  margin: 0px auto;
+  text-align: center;
+}
+.Steps-Section .Box {
+  padding: 20px;
+  width: 150px;
+  height: auto;
+  margin: 0px auto;
+  min-height: 150px;
+  color: #ffffff;
+  position: relative;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Steps-Section .Color-1 {
+  background-color: #009fa5;
+}
+.Steps-Section .Color-2 {
+  background-color: #ff8117;
+}
+.Steps-Section .Color-3 {
+  background-color: #e09f00;
+}
+.Steps-Section .Color-4 {
+  background-color: #ff5050;
+}
+.Steps-Section .Number {
+  background-color: #000000;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 3px;
+  position: absolute;
+  top: -20px;
+  left: 55px;
+  font-size: 25px;
+}
+.Steps-Section .email {
+  color: #a20100;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Steps-Section .Text {
+  margin-top: 10%;
+}
+.Steps-Section .Text-center {
+  text-align: center;
+}
+.Steps-Section .Link {
+  width: 90%;
+  margin: 0px auto;
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #009fa5;
+  font-size: 20px;
+  text-decoration: none;
+}
+.Steps-Section .Link:hover {
+  color: #000000;
+}
+
+.Include-Section {
+  background-color: #000000;
+  padding: 50px 0px 50px 0px;
+  color: #ffffff;
+  text-align: center;
+}
+.Include-Section .Text {
+  text-decoration: none;
+  color: white;
+}
+.Include-Section .Title {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.Include-Section .Icon-Container {
+  margin: 0px auto;
+}
+.Include-Section .Icon-Box {
+  margin: 0px auto;
+  margin-bottom: 5%;
+  width: 100px;
+  min-height: 100px;
+  padding: 5px 0px 5px 0px;
+  border-radius: 8%;
+}
+.Include-Section .icon {
+  width: 90px;
+}
+.Include-Section .Color-1 {
+  background-color: #ff5050;
+}
+.Include-Section .Color-2 {
+  background-color: #009fa5;
+}
+.Include-Section .Color-3 {
+  background-color: #e09f00;
+}
+.Include-Section .Color-4 {
+  background-color: #00c18c;
+}
+.Include-Section .Title-Steps {
+  font-weight: bold;
+}
+.Include-Section .button-more-info {
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #ff5050;
+}
+.Include-Section .button-more-info:hover {
+  background-color: #ff5050;
+}
+
+footer {
+  background-color: #efefef;
+  padding: 50px 40px 50px 40px !important;
+}
+footer .Section-Footer {
+  padding: 3%;
+}
+footer .Container {
+  width: 80%;
+  margin: 0px auto;
+}
+footer .Title {
+  border-bottom: 1px solid rgb(194, 194, 194);
+  width: 80% !important;
+  padding: 1% !important;
+  color: #2a2a2a !important;
+}
+footer .List {
+  list-style: none;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #2a2a2a;
+}
+footer li {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+footer .Sub-Footer {
+  width: 90%;
+  margin: 0px auto;
+  padding: 1% 0% 1% 0%;
+  border-top: 1px solid gray;
+}
+footer a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: lighter;
+}
+footer a:hover {
+  color: #e09f00;
+}/*# sourceMappingURL=styles-addmx.css.map */
